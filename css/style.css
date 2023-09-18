@@ -9,6 +9,11 @@ header{
     
 } */
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
 h1{
     font-family: 'london',sans-serif ;
@@ -18,3 +23,5 @@ h2{
     font-family: 'Bebas Neue', sans-serif;
 
 }
+
+
