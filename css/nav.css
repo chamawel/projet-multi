@@ -1,8 +1,9 @@
 nav ul {
         list-style-type: none;
         margin: 0;
-        padding: 0;
+        padding: 1rem;
         text-decoration: none;
         background-color: #f8d3b7;
         text-align: center;
+
   }

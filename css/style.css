@@ -3,11 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
 
-/* 
-header{
 
-    
-} */
 
 
 h1{
@@ -19,11 +15,33 @@ h2{
 
 }
 
+body{
+    margin: 0;
+    background-color:#a44757;
+}
+
+
+header{
+    background-color:#f7ac32;
+    padding: 1rem;
+    
+}
+
+/* main{
+
+} */
+
 
 footer{
+
+    padding: 0.5rem;
+
     background-color: #f7ac32;
     text-align: center;
     list-style-type: none;
+    position: fixed;
+    width: 100%;
+    
 }
 
 .flex-container{
@@ -31,6 +49,6 @@ footer{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap:1rem;
-    
+    gap:3rem;
+    justify-content: center
 }
