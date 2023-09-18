@@ -23,7 +23,7 @@ h2{
 footer{
     background-color: #f7ac32;
     text-align: center;
-
+    list-style-type: none;
 }
 
 .flex-container{
