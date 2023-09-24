@@ -1,0 +1,34 @@
+.rotate:hover{
+    transform: rotate(1turn);
+}
+
+.rotate-left:hover{
+    transform: translate(-200px) rotate(1turn) ;
+
+}
+
+.rotate-right:hover{
+    transform: translate(200px) rotate(1turn) ;
+}
+
+.zoom:hover{
+    transform: scale(1.5);
+}
+
+.go-left:hover{
+    transform: translate(-100px);
+
+}
+
+.go-right{
+    transform: translate(100px);
+}
+
+.darken:hover{
+    background-color:#a08c7d ;
+
+}
+
+.brighten:hover{
+    color: rgb(255, 255, 255);
+}
