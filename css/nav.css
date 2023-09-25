@@ -1,9 +1,22 @@
 nav ul {
         list-style-type: none;
         margin: 0;
-        padding: 1rem;
         text-decoration: none;
         background-color: #f8d3b7;
         text-align: center;
+        transition: ease-in-out 0.5s;
+
 
   }
+
+nav li{
+      margin: 0;
+      padding: 1rem;
+      transition: ease-in-out 1s;
+}
+
+nav a{
+      color: black;
+      text-decoration: none;
+      transition: ease-in-out 1s;
+}
