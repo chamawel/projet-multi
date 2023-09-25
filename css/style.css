@@ -5,7 +5,11 @@
 
 
 
+p, a{
+    font-size: large;
+    font-family: 'old standar',sans-serif ;
 
+}
 
 h1{
     font-family: 'london',sans-serif ;
@@ -31,6 +35,7 @@ header{
 img{
     transition:  ease-in 1s;
 }
+
 
 footer{
 
@@ -84,7 +89,29 @@ footer ul{
       "text2 image2"; 
 }
 
-.image { grid-area: image; }
-.text { grid-area: text;}
-.text2 { grid-area: text2;}
-.image2 { grid-area: image2;}
+.image { grid-area: image;
+         transition:  ease-in 0.2s;
+               
+}
+.text { grid-area: text;
+
+}
+.text2 { grid-area: text2;
+
+}
+
+.image2 { 
+    grid-area: image2;
+    transition:  ease-in 0.2s;
+
+}
+
+.image img{
+    -webkit-box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
+    box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
+}
+
+.image2 img{
+    -webkit-box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
+    box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
+}
