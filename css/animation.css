@@ -3,12 +3,12 @@
 }
 
 .rotate-left:hover{
-    transform: translate(-200px) rotate(1turn) ;
+    transform: translate(-800px) rotate(1turn) ;
 
 }
 
 .rotate-right:hover{
-    transform: translate(200px) rotate(1turn) ;
+    transform: translate(800px) rotate(1turn) ;
 }
 
 .zoom:hover{

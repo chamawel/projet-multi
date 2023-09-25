@@ -6,6 +6,7 @@
 
 
 
+
 h1{
     font-family: 'london',sans-serif ;
 }
@@ -27,9 +28,9 @@ header{
     
 }
 
-/* main{
-
-} */
+img{
+    transition:  ease-in 1s;
+}
 
 
 footer{
@@ -62,3 +63,29 @@ footer ul{
     gap:3rem;
     justify-content: center
 }
+
+
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 2rem;
+    margin-left:  6rem;
+    margin-right: 6rem;
+
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    justify-content: center;
+
+    
+    
+
+    grid-template-areas: 
+      "image text"
+      "text2 image2"; 
+}
+
+.image { grid-area: image; }
+.text { grid-area: text;}
+.text2 { grid-area: text2;}
+.image2 { grid-area: image2;}
