@@ -34,6 +34,11 @@ header{
 
 footer{
 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
     padding: 0.5rem;
 
     background-color: #f7ac32;
@@ -42,6 +47,11 @@ footer{
     position: fixed;
     width: 100%;
     
+}
+
+
+footer ul{
+    list-style-type: none;
 }
 
 .flex-container{
