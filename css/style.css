@@ -99,10 +99,14 @@ footer ul{
                
 }
 .text { grid-area: text;
-
+        background-color: rgba(207, 158, 155,0.7);
+        padding-left: 1rem;
+        padding-right: 1rem;
 }
 .text2 { grid-area: text2;
-
+         background-color: rgba(207, 158, 155,0.7);
+         padding-left: 1rem;
+         padding-right: 1rem;
 }
 
 .image2 { 
@@ -129,13 +133,34 @@ footer ul{
     grid-auto-columns: 1fr; 
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr; 
-    gap: 1em 1em; 
+    gap: 0.5rem 1rem; 
     grid-template-areas: 
-      "image1-ressource Texte"
-      "image2-ressource Texte"; 
+      "image1-ressource text-ressource"
+      "image2-ressource text-ressource"; 
+
+    padding-top:    1rem;
+    padding-bottom: 5rem;
+    padding-left:   3rem ;
+    padding-right:  3rem ;
+    
 }
 
 
 .image1-ressource { grid-area: image1-ressource; }
 .image2-ressource { grid-area: image2-ressource; }
-.Texte { grid-area: Texte; }
+.text-ressource   {
+    grid-area: text-ressource;
+    padding-left:  1rem;
+    padding-right: 6rem;
+    background-color: rgba(207, 158, 155,0.7);
+}
+
+.image1-ressource img{
+    -webkit-box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
+    box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
+}
+
+.image2-ressource img{
+    -webkit-box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
+    box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
+}
