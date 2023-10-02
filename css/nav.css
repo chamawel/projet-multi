@@ -20,3 +20,7 @@ nav a{
       text-decoration: none;
       transition: ease-in-out 1s;
 }
+
+.active{
+      background-color: #f3c5a1;
+}
