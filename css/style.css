@@ -44,7 +44,7 @@ footer{
 
     position: relative;
     padding: 0.5rem;
-    
+
     background-color: #f7ac32;
     text-align: center;
     list-style-type: none;
@@ -95,6 +95,9 @@ footer ul{
 
 .image { grid-area: image;
          transition:  ease-in 0.2s;
+         justify-self: right;
+        
+         
                
 }
 .text { grid-area: text;
@@ -111,6 +114,8 @@ footer ul{
 .image2 { 
     grid-area: image2;
     transition:  ease-in 0.2s;
+    padding-left: 3rem;
+    
     
 }
 
