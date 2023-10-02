@@ -42,9 +42,9 @@ img{
 footer{
 
     position: fixed;
-    left: 0;
+    left:   0;
     bottom: 0;
-    width: 100%;
+    width:  100%;
 
     padding: 0.5rem;
 
@@ -77,13 +77,15 @@ footer ul{
 .container {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows:    1fr 1fr; 
     gap: 2rem;
     margin-left:  6rem;
     margin-right: 6rem;
 
-    margin-bottom: 5rem;
-    margin-top: 1rem;
+    margin-bottom:  5rem;
+    margin-top:     1rem;
+    padding-bottom: 6rem;
+    
     justify-content: center;
 
     
@@ -112,17 +114,17 @@ footer ul{
 .image2 { 
     grid-area: image2;
     transition:  ease-in 0.2s;
-
+    
 }
 
 .image img{
     -webkit-box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
-    box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
+    box-shadow:         5px 5px 35px 5px rgba(0,0,0,0.5); 
 }
 
 .image2 img{
     -webkit-box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
-    box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
+    box-shadow:         5px 5px 35px 5px rgba(0,0,0,0.5); 
 }
 
 
@@ -130,9 +132,9 @@ footer ul{
 
 .container-ressource {
     display: grid; 
-    grid-auto-columns: 1fr; 
+    grid-auto-columns:     1fr; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows:    1fr 1fr; 
     gap: 0.5rem 1rem; 
     grid-template-areas: 
       "image1-ressource text-ressource"
@@ -157,10 +159,10 @@ footer ul{
 
 .image1-ressource img{
     -webkit-box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
-    box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
+    box-shadow:         5px 5px 35px 5px rgba(0,0,0,0.5); 
 }
 
 .image2-ressource img{
     -webkit-box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
-    box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
+    box-shadow:         5px 5px 35px 5px rgba(0,0,0,0.5); 
 }
