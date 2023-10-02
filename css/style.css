@@ -42,17 +42,13 @@ img{
 
 footer{
 
-    position: fixed;
-    left:   0;
-    bottom: 0;
-    width:  100%;
-
+    position: relative;
     padding: 0.5rem;
-
+    
     background-color: #f7ac32;
     text-align: center;
     list-style-type: none;
-    position: fixed;
+    
     width: 100%;
     
 }
@@ -142,9 +138,11 @@ footer ul{
       "image2-ressource text-ressource"; 
 
     padding-top:    1rem;
-    padding-bottom: 12rem;
+    padding-bottom: 1rem;
     padding-left:   3rem ;
     padding-right:  3rem ;
+
+    
 
     justify-content: center;
     
