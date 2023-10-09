@@ -5,18 +5,19 @@
 
 
 
-p, a{
-    font-size: large;
-    font-family: 'old standar',sans-serif ;
-
+p, a {
+    font-size: 20px;
+    font-family:'old standar',sans-serif;
 }
 
+
 h1{
+    font-size: 40px;
     font-family: 'london',sans-serif ;
 }
 
 h2{
-    font-size: x-large;
+    font-size: 30px;
     font-family: 'Bebas Neue', sans-serif;
 
 }
@@ -41,17 +42,13 @@ img{
 
 footer{
 
-    position: fixed;
-    left:   0;
-    bottom: 0;
-    width:  100%;
-
+    position: relative;
     padding: 0.5rem;
 
     background-color: #f7ac32;
     text-align: center;
     list-style-type: none;
-    position: fixed;
+    
     width: 100%;
     
 }
@@ -98,6 +95,9 @@ footer ul{
 
 .image { grid-area: image;
          transition:  ease-in 0.2s;
+         justify-self: right;
+        
+         
                
 }
 .text { grid-area: text;
@@ -114,6 +114,8 @@ footer ul{
 .image2 { 
     grid-area: image2;
     transition:  ease-in 0.2s;
+    padding-left: 3rem;
+    
     
 }
 
@@ -133,17 +135,21 @@ footer ul{
 .container-ressource {
     display: grid; 
     grid-auto-columns:     1fr; 
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows:    1fr 1fr; 
+    grid-template-columns: 0.2fr 0.3fr; 
+    grid-template-rows:    0.5fr 1fr; 
     gap: 0.5rem 1rem; 
     grid-template-areas: 
       "image1-ressource text-ressource"
       "image2-ressource text-ressource"; 
 
     padding-top:    1rem;
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
     padding-left:   3rem ;
     padding-right:  3rem ;
+
+    
+
+    justify-content: center;
     
 }
 
@@ -155,6 +161,7 @@ footer ul{
     padding-left:  1rem;
     padding-right: 6rem;
     background-color: rgba(207, 158, 155,0.7);
+
 }
 
 .image1-ressource img{
