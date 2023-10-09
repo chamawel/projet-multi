@@ -76,14 +76,17 @@ footer ul{
     grid-template-columns: 1fr 1fr; 
     grid-template-rows:    1fr 1fr; 
     gap: 2rem;
-    margin-left:  6rem;
-    margin-right: 6rem;
+    
+    margin-left: 5rem;
+    margin-right: 5rem;
 
     margin-bottom:  5rem;
     margin-top:     1rem;
     padding-bottom: 6rem;
     
+    
     justify-content: center;
+    
 
     
     
@@ -173,3 +176,31 @@ footer ul{
     -webkit-box-shadow: 5px 5px 35px 5px rgba(0,0,0,0.5); 
     box-shadow:         5px 5px 35px 5px rgba(0,0,0,0.5); 
 }
+
+/* GRID Blog */
+
+.container-blog {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.25fr 0.25fr 0.25fr; 
+    gap: 1em 1em; 
+    grid-template-areas: 
+    "blog-1 blog-2 blog-3"
+    "blog-4 blog-5 blog-6"
+    "blog-7 blog-8 blog-9"; 
+
+    margin: 10rem;
+
+    mar
+    
+}
+.blog-1 { grid-area: blog-1; background-color: #f3c5a1 ; }
+.blog-2 { grid-area: blog-2; background-color: #f3c5a1 ; }
+.blog-3 { grid-area: blog-3; background-color: #f3c5a1 ; }
+.blog-4 { grid-area: blog-4; background-color: #f3c5a1 ; }
+.blog-5 { grid-area: blog-5; background-color: #f3c5a1 ; }
+.blog-6 { grid-area: blog-6; background-color: #f3c5a1 ; }
+.blog-7 { grid-area: blog-7; background-color: #f3c5a1 ; }
+.blog-8 { grid-area: blog-8; background-color: #f3c5a1 ; }
+.blog-9 { grid-area: blog-9; background-color: #f3c5a1 ; }
