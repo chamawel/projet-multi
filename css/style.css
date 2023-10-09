@@ -75,14 +75,7 @@ footer ul{
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     grid-template-rows:    1fr 1fr; 
-    gap: 2rem;
-    
-    margin-left: 5rem;
-    margin-right: 5rem;
-
-    margin-bottom:  5rem;
-    margin-top:     1rem;
-    padding-bottom: 6rem;
+    gap: 1rem;
     
     
     justify-content: center;
