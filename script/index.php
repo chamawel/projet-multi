@@ -1,6 +1,8 @@
-<?php
-    echo "AAAAHHHHHH !!";
-    $variable = " OOOohhhh ";
-    echo $variable;
+<?php  
+    $nameOfServer = "localhost";
+    $login        = "fivett207";
+    $pswd         = "VP113"    ;
+    $nameOfDB     = "rpg-297"  ;
+
 
 ?>
