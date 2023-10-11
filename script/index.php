@@ -12,8 +12,10 @@
 
     $res= mysqli_query($id, "select idPersonnage , nom , level from personnages" );
 
-    echo mysqli_num_rows($res)." - Ligne de la table :" ;
+    echo mysqli_num_rows($res)." - Ligne dans la table :" ;
     echo "<hr />";
+
+    echo " <p><b> ID | Nom | Level </b> </p>   ";
 
     while ($tab = mysqli_fetch_assoc($res)){
         echo implode(" | ",$tab);
