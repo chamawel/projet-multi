@@ -4,12 +4,11 @@
     $pswd         = "VP113"    ;
     $nameOfDB     = "rpg-297"  ;
 
-    $connexion    = new mysqli($nameOfServer,$login,$pswd);
+    $connexion    = mysqli_connect($nameOfServer,$login,$pswd,$nameOfDB);
+    $message      = mysqli_query($connexion,"SELECT 'nom' FROM 'personnages' ");
+    $row          = mysqli_fetch_assoc($message);
 
-    if($connexion -> connect_error){
-        die("Erreur : " .$connexion -> connect_error);
-    
-    }
-    echo "connection error";
+    echo $row['_msg'];
 
+    echo "BOO"
 ?>
