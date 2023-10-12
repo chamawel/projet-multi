@@ -1,6 +1,6 @@
 <?php  
     
-    
+
     $nameOfServer = "localhost";
     $login        = "fivett207";    
     $pswd         = "VP113"    ;
@@ -13,6 +13,8 @@
 
         $res= mysqli_query($id, "select idPersonnage , nom , level from personnages" );
 
+
+        echo " <h1> Bonjour <b style='text-decoration: underline;'> ".$_POST["login"]."</b> </h1> <br>"  ;
         echo mysqli_num_rows($res)." - Ligne dans la table :" ;
         echo "<hr />";
 
