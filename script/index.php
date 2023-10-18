@@ -44,5 +44,5 @@
     }
 
 
-    $id->close()
+    mysqli_close($id);
 ?>
