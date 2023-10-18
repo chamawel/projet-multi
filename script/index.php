@@ -9,7 +9,7 @@
 
 
     if( $_POST["login"] == $login and $_POST["password"] == $pswd ){
-        $id = mysqli_connect($nameOfServer,$login,$pswd,$nameOfDB) or die("Info de connexion incorrete") ;
+        $id = mysqli_connect($nameOfServer,$login,$pswd,$nameOfDB) or die("Info de connexion invalide") ;
 
         $res= mysqli_query($id, "select idPersonnage , nom , level from personnages" );
 
