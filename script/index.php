@@ -43,4 +43,6 @@
         echo "<a href='../formulaire-test.html'> <button type='button'> Retour </button> <a/> ";
     }
 
+
+    $id->close()
 ?>
