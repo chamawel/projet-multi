@@ -13,8 +13,8 @@
     $res  = $conn->query($sql);
 
     while($tab = $res ->fetch_assoc){
-        echo implode("|",$tab )
-        echo "<br />"
+        echo implode("|",$tab );
+        echo "<br />";
     }
 
 
